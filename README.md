@@ -3,6 +3,7 @@
 
 [UEditor](https://github.com/fex-team/ueditor) 官方支持的版本有PHP JSP ASP .NET.
 
+Fork from [ueditor:nodejs](https://github.com/netpi/ueditor)
 ueditor for nodejs 可以让你的UEditor支持nodejs
 
 ## ueditor@1.0.0 已经全面升级 。
@@ -94,5 +95,4 @@ app.use("/ueditor/ue", ueditor(path.join(__dirname, 'public'), function(req, res
 
 ```
 
-你可以来[ueditor:nodejs](http://blog.netpi.me/nodejs/ueditor-nodejs)给作者留言
 
