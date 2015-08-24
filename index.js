@@ -77,7 +77,7 @@ var respond = function(static_url, callback) {
             if (err) throw err;
             res.json({
               'url': path.join(img_url, name),
-              'title': req.body.pictitle,
+              'title': name,
               'original': filename,
               'state': 'SUCCESS'
             });
@@ -93,3 +93,4 @@ var respond = function(static_url, callback) {
   };
 };
 module.exports = ueditor;
+
